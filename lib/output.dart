@@ -58,7 +58,8 @@ class Output extends StatelessWidget {
                 ),
               ),
             if (text)
-              TextField(
+              TextFormField(
+                initialValue: widgetSelection.text,
                 decoration: InputDecoration(
                     fillColor: Colors.grey[200],
                     filled: true,
